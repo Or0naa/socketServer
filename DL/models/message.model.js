@@ -8,9 +8,8 @@ const messageSchema = new mongoose.Schema({
         // required: true
     },
     user: {
-        type: mongoose.SchemaTypes.ObjectId,
-        ref: "user",
-        required: true
+        type: String,
+        // required: true
     },
     createdDate:{
         type:Date,
